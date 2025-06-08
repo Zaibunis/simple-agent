@@ -41,12 +41,15 @@ uv pip install -r requirements.txt
 Activate your virtual environment and run the app:
 
 **macOS/Linux**
+
 `source .venv/bin/activate`
 
 **Windows**
+
 `.venv\Scripts\activate`
 
 **Run the chatbot**
+
 `uv run main.py`
 
 ---
@@ -68,13 +71,17 @@ You can easily add more agents to the agents dictionary in main.py.
 ---
 
 ❗ Troubleshooting
-API Key Error:
+
+**API Key Error**:
+
 If you get ValueError: `GEMINI_API_KEY` not found, make sure your `.env` file is correctly placed and formatted.
 
-Missing Modules:
+**Missing Modules**:
+
 If you see ModuleNotFoundError, make sure you’ve installed all dependencies via uv pip install.
 
-🛠️ Customization Ideas
+**🛠️ Customization Ideas**:
+
 Add more agents like Weather Bot, Cooking Expert, or Fitness Coach
 
 Add a chat loop to keep the conversation going
@@ -84,4 +91,5 @@ Build a GUI using Streamlit or Tkinter
 ---
 
 Happy coding! 🎉
+
 **Build with ❤ by [Faria Mustaqim](https://github.com/Zaibunis)**
