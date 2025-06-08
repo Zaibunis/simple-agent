@@ -40,23 +40,27 @@ uv pip install -r requirements.txt
 🚀 Step 3: Run the Application
 Activate your virtual environment and run the app:
 
-# macOS/Linux
-source .venv/bin/activate
+**macOS/Linux**
+`source .venv/bin/activate`
 
-# Windows
-.venv\Scripts\activate
+**Windows**
+`.venv\Scripts\activate`
 
-# Run the chatbot
-uv run main.py
+**Run the chatbot**
+`uv run main.py`
 
 ---
 
-🧠 Agent Options (Currently Available)
-Option	Agent Name
+🧠 Agent Options (Currently Available):
+
 1	Greeting Agent
+
 2	Motivational Coach
+
 3	Wise Scholar
+
 4	Tech Guru
+
 5	Friendly Storyteller
 
 You can easily add more agents to the agents dictionary in main.py.
@@ -77,6 +81,7 @@ Add a chat loop to keep the conversation going
 
 Build a GUI using Streamlit or Tkinter
 
-Happy coding! 🎉
+---
 
-#Build with ❤ by Faria Mustaqim
+Happy coding! 🎉
+**Build with ❤ by [Faria Mustaqim](https://github.com/Zaibunis)**
